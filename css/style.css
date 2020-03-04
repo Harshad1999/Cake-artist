@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Consolas;
+}
+
+body, html {
+	height: 100%;
+}
+
+.banner {
+	background-image: url("../img/b2.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header {
+	padding: 0px 30px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+	z-index: 999;
+	position: fixed;
+	background: transparent;
+	height: 70px;
+}
+
+.navbars {
+	transition: all 0.5s;
+}
+
+header .logoimg {
+	height: 50px;
+	width: 50px;
+}
+
+header .logo {
+	color: #fff;
+	height: 70px;
+	line-height: 70px;
+	font-size: 24px;
+	font-weight: bold;
+	float: left;
+	font-family: cursive;
+}
+
+header nav {
+	float: right;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+header nav ul li {
+	list-style: none;
+}
+
+header nav ul li a {
+	height: 70px;
+	line-height: 70px;
+	padding: 0px 30px;
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	transition: 0.5s;
+}
+
+header nav ul li a:hover {
+	color: #AF59A1;
+	background: #fff;
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+.toggle {
+	color: white;
+	float: right;
+	font-size: 30px;
+	cursor: pointer;
+	display: none;
+	line-height: 70px;
+}
+
+.moto {
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.moto .head {
+	font-size: 20px;
+}
+
+.moto .mainhead {
+	font-size: 40px;
+}
+
+.line {
+	background-color: #fff;
+}
+
+.about {
+	margin-top: 1000px;
+}
